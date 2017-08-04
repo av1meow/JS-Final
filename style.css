@@ -1,0 +1,26 @@
+body {
+  background-color: #000000;
+}
+#p {
+  color: #ff0000;
+  font-size: 34px;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+
+#p1 {
+  color: #ffff00;
+  font-size: 34px;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+
+#p2 {
+  color: #009933;
+  font-size: 43px;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+
+#p3 {
+  color :#ffa600;
+  font-size: 34px;
+  font-family: 'Shadows Into Light Two', cursive;
+}
