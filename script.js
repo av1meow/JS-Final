@@ -29,10 +29,10 @@ $(document).ready(function() {
 				var p3 = document.getElementById("p3");
 
 				// if statement then append from html upload images on html
-				var cheese = document.getElementById('cheese')
+				//var cheese = document.getElementById('cheese');
 				//make a switch statement for everytime you click submit a new pic shows up
-				var fresno = document.getElementById('fresno')
-				var nj = document,getElementById('nj')
+				//var fresno = document.getElementById('fresno');
+				//var nj = document,getElementById('nj');
 				// ids are in html they are the image id's
 
 //setting the data it recives
