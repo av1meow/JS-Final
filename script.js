@@ -1,10 +1,10 @@
-/*Final project - Making api call to display weather data
+//Final project - Making api call to display weather data
 
-Instructions
-1. find a way to extract user input from a form (inputed data can be user’s city, zip code, etc.)
-2. When form is submitted (through an event listener/handler), make an api call using David’s example
-3. Append the data to your html file (instead of console.logging it)
-commentzzzzzz pleazzzze!!!*/
+// Instructions
+// 1. find a way to extract user input from a form (inputed data can be user’s city, zip code, etc.)
+// 2. When form is submitted (through an event listener/handler), make an api call using David’s example
+// 3. Append the data to your html file (instead of console.logging it)
+// commentzzzzzz pleazzzze
 
 //grabbing the elements by there ids from html
 $(document).ready(function() {
@@ -30,7 +30,10 @@ $(document).ready(function() {
 
 				// if statement then append from html upload images on html
 				var cheese = document.getElementById('cheese')
-
+				//make a switch statement for everytime you click submit a new pic shows up
+				var fresno = document.getElementById('fresno')
+				var nj = document,getElementById('nj')
+				// ids are in html they are the image id's
 
 //setting the data it recives
 				p.textContent = data.name;
