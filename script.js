@@ -29,10 +29,10 @@ $(document).ready(function() {
 				var p3 = document.getElementById("p3");
 
 				// if statement then append from html upload images on html
-				//var cheese = document.getElementById('cheese');
-				//make a switch statement for everytime you click submit a new pic shows up
-				//var fresno = document.getElementById('fresno');
-				//var nj = document,getElementById('nj');
+				// var cheese = document.getElementById('cheese');
+				// make a switch statement for everytime you click submit a new pic shows up
+				// var fresno = document.getElementById('fresno');
+				// var nj = document,getElementById('nj');
 				// ids are in html they are the image id's
 
 //setting the data it recives
@@ -40,7 +40,17 @@ $(document).ready(function() {
 				p1.textContent = (data.main.temp-273.15)*1.8+32;
 				p2.textContent = data.weather[0].description;
 				p3.textContent = data.wind.speed;
+//3 images to run through
+				var imgArr = ["images/campblood.jpg", "images/cheese.png", "images/downtown.jpg"];
+// using math.random to run the 3 images each time
+				var cheese = document.getElementById("cheese");
+				function genRan(){
+					return Math.floor(Math.random() * 3);
+				};
 
+				cheese.src = imgArr[genRan()];
+				cheese.alt = "my picture";
+				console.log(cheese);
 
 				console.log(data);
 		    console.log(data.name);
