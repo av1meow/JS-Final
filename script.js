@@ -1,4 +1,4 @@
-//Final project - Making api call to display weather data
+//Final project Making api call to display weather data
 
 // Instructions
 // 1. find a way to extract user input from a form (inputed data can be user’s city, zip code, etc.)
@@ -28,9 +28,9 @@ $(document).ready(function() {
 				var p2 = document.getElementById("p2");
 				var p3 = document.getElementById("p3");
 
-				// if statement then append from html upload images on html
+
 				// var cheese = document.getElementById('cheese');
-				// make a switch statement for everytime you click submit a new pic shows up
+				// make image change for everytime you click submit but make it to were image only changes when city changes
 				// var fresno = document.getElementById('fresno');
 				// var nj = document,getElementById('nj');
 				// ids are in html they are the image id's
@@ -47,7 +47,7 @@ $(document).ready(function() {
 				function genRan(){
 					return Math.floor(Math.random() * 3);
 				};
-
+// grabing the images and displaying them
 				cheese.src = imgArr[genRan()];
 				cheese.alt = "my picture";
 				console.log(cheese);
